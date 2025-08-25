@@ -4,7 +4,7 @@ import React from 'react';
 const CartWidget = () => {
   return (
     <div>
-      🛒 <span>(3)</span> {/* Número de productos como ejemplo */}
+      🛒 <span>(3)</span> 
     </div>
   );
 };
