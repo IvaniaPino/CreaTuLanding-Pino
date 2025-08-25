@@ -1,4 +1,5 @@
-/* Root principal: ocupa toda la pantalla y organiza el layout vertical */
+
+
 #root {
   width: 100vw;
   height: 100vh;
@@ -14,17 +15,17 @@
   flex-direction: column;
 }
 
-/* Pantalla central: contenido debajo del navbar, centrado */
+
 .pantalla-central {
-  height: calc(100vh - 60px); /* Altura total menos navbar */
-  padding-top: 60px; /* Espacio para el navbar fijo */
+  height: calc(100vh - 60px);
+  padding-top: 60px; 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-/* Navbar fijo arriba */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -41,7 +42,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Logo en el navbar */
+
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -67,7 +68,7 @@
   text-decoration: underline;
 }
 
-/* Logo animado (si lo usas aún) */
+
 .logo {
   height: 6em;
   padding: 1.5em;
